@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>Online Bus Reservation System</title>
+    </head>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="main.css">
+    <body>
+       
+      <center> <h1> APNI YATRA</h1></center> 
+    
+    <nav>
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#About">About</a></li>
+            <li style="float:right"> <a  href="login.html">Login</a></li>
+         </ul>
+    </nav>
+
+    <div class="bus">
+    
+        <form action="list.html" name="book">
+            <h4>Choose Your Yatra</h4><br>
+          
+          <table>
+            <tr>
+              <td> <label for="from">From</label></td>
+              <td> <input list="browsers" name="from" id="from" placeholder="Select" required><br>
+                <datalist id="browsers">
+                  <option value="Dharamshala"></option>
+                  <option value="Kangra"></option>
+                  <option value="Palampur"></option>
+                  <option value="Baijnath"></option>
+                  <option value="Una"></option>
+                <option value="Hamirpur"></option>
+                <option value="Joginder Nagar"></option>
+                <option value="Shimla"></option>
+                <option value="Solan"></option>
+                <option value="Baddi"></option>
+                 <option value="Sirmor"></option>
+                <option value="Nahan"></option>
+                <option value="Sujanpur"></option>
+                <option value="Chmaba"></option>
+                <option value="Bharmor"></option>
+    
+                </datalist></td>
+            </tr>
+            <tr>
+              <td> <label for="To">To</label></td>
+              <td> <input list="browsers" name="to" id="to" placeholder="Select" required>
+                <datalist id="browsers">
+                <option value="Dharamshala"></option>
+                <option value="Kangra"></option>
+                <option value="Palampur"></option>
+                <option value="Baijnath"></option>
+                <option value="Una"></option>
+                <option value="Hamirpur"></option>
+                <option value="Joginder Nagar"></option>
+                <option value="Shimla"></option>
+                <option value="Solan"></option>
+                <option value="Baddi"></option>
+                <option value="Sirmor"></option>
+                <option value="Nahan"></option>
+                <option value="Sujanpur"></option>
+                <option value="Chmaba"></option>
+                <option value="Bharmor"></option>
+    
+                </datalist></td>
+            </tr>
+            <tr>
+              <td> <label for="date">Date</label></td>
+              <td> <input type="date" name="" placeholder="dd-mm-yyyy"value="" min="2023-05-15"  ></td>
+            </tr>
+          </table><br>
+          <input type="submit"name="" value="Book Ticket">
+          </form>
+
+        </div>
+    
+    </body>
+    <script src="data.js"></script>
+    </html>
